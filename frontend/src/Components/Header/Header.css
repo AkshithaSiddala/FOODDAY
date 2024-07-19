@@ -1,0 +1,66 @@
+.Header {
+    height: 34vw;
+    margin: 30px auto;
+    background: url('/food-bg.webp') no-repeat ;
+    background-size: contain;
+    position: relative;
+    border-radius: 50px;
+    width: 1000px;
+  }
+  
+  .Header-contents {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    gap: 1.5vw;
+    bottom: 10%; 
+    left: 6vw; 
+    max-width: 50%;
+    animation: fadeIn 3s;
+    
+  }
+  
+  .Header-contents h2 {
+    font-size: max(4.5vw,22px);  
+    font-weight: 500;
+    color: white;
+  }
+  
+  .Header-contents p {
+    font-size: 1vw;
+    color: white;
+  }
+  
+  .Header-contents button {
+    color: #747474;
+    background-color: white;
+    border: none;
+    font-weight: 500;
+    padding: 1vw 2.3vw;
+    font-size: max(1vw,13px);
+    border-radius: 50px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .Header button:hover {
+    background-color: rgb(205, 202, 6)
+  }
+  @media (max-width:1050px) {
+    .Header-contents{
+      max-width: 45%;
+    }
+  }
+  @media (max-width:750px) {
+    
+    .Header-contents{
+      max-width: 65%;
+    }s
+    .Header-contents p{
+      display:none ;
+    }
+    .Header-contents button{
+      padding: 2vw 4vw;
+    }
+  }

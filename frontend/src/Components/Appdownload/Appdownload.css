@@ -1,0 +1,28 @@
+/* Appdownload.css */
+
+.app-download {
+    background-color: #f8f8f8; /* Background color */
+    padding: 40px 0; /* Padding */
+    text-align: center; /* Center align text */
+}
+
+.app-download p {
+    font-size: 1.2rem; /* Font size */
+    color: #e7e750; /* Text color */
+    margin-bottom: 20px; /* Bottom margin */
+}
+
+.app-download-platforms {
+    display: flex;
+    justify-content: center; /* Center align child elements horizontally */
+}
+
+.app-download-platforms img {
+    width: 150px; /* Set image width */
+    margin: 0 10px; /* Add spacing between images */
+    transition: transform 0.3s ease; /* Smooth transition effect */
+}
+
+.app-download-platforms img:hover {
+    transform: scale(1.1); /* Scale up on hover */
+}

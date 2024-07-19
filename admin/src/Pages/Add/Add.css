@@ -1,0 +1,87 @@
+/* Add.css */
+
+.add {
+    width: 100%;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f9f9f9; /* Light grey background color */
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Adding a slight shadow */
+  }
+  
+  .add form {
+    display: flex;
+    flex-direction: column;
+    max-width: 50%;
+    padding-left: 10%;
+    color: #ccc;
+  }
+  
+  .add .flex-col {
+    margin-bottom: 15px;
+  }
+  
+  .add p {
+    margin-bottom: 10px;
+    color: black; /* Dark grey text color */
+    font-size: 13px
+  }
+  
+  .add-img-upload {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+  }
+  
+  .add-img-upload img {
+    width: 100px;
+    height: 50px;
+    margin-bottom: 10px;
+    cursor: pointer;
+  }
+  
+  .add-img-upload input[type="file"] {
+    display: none;
+  }
+  
+  .add-product-name input,
+  .add-product-description textarea,
+  .add-price input,
+  .add-category select {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 14px;
+  }
+  
+  .add-btn {
+    width: 50%;
+    padding: 10px;
+    background-color: rgba(205, 126, 30, 0.89);
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    max-width: 100px;
+
+  }
+  
+  .add-btn:hover {
+    background-color: #f0cc17; /* Lighter shade of tomato on hover */
+  }
+
+  .add-category-price{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+  }
+  
+  .add-category-price select,.add-category-price input{
+    max-width: 100px;
+    padding: 10px;
+
+  }
+
+

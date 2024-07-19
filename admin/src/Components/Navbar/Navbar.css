@@ -1,0 +1,29 @@
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 8px 4%;
+}
+
+.navbar .logo{
+    width: max(10% ,80px);
+}
+
+.navbar .profile{
+    width: 40px;
+}
+.logo{
+    width: 150px;
+    height: 50px;
+    text-align: center;
+    color: #956607;
+    border-radius: 50px;
+    align-items: center;
+    padding: 12px 0px;
+    text-shadow: #fff2ef;
+    font-weight: bolder;
+    font-size: larger;
+    background-color: bisque;
+   
+
+}
